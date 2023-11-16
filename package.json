@@ -1,0 +1,35 @@
+{
+  "name": "my_proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangthi0607/my_proj.git"
+  },
+  "keywords": [
+    "f8",
+    "nodejs"
+  ],
+  "author": "hoangthi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoangthi0607/my_proj/issues"
+  },
+  "homepage": "https://github.com/hoangthi0607/my_proj#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "nodemon": "^3.0.1",
+    "start": "^5.1.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^9.0.0"
+  }
+}
